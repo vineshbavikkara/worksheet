@@ -1,0 +1,22 @@
+*{
+    margin-left: 1.2mm
+}
+body{
+    background-color: rgba(241, 198, 198, 0.733)
+
+}
+
+h1{
+    background-color: rgb(199, 164, 7);
+    font-style:normal;
+    font-synthesis: style;
+    margin: top 25px;
+    margin: left 10px
+}
+
+h2{
+    background-color:khaki;
+    font-style:inherit;
+    margin:top 25px;
+    margin: left 10px
+}
