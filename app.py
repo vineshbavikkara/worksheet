@@ -13,7 +13,7 @@ def predict1():
     response = [x for x in request.form.values()]
     res = int(response[0])
     if int(response[0]) == 1: 
-        return render_template("index1.html",answer=" 1 is Correct Answer ")
+        return render_template("index3.html",answer=" 1 is Correct Answer ")
     return render_template("index2.html",a=res,answer=" is Wrong Answer ")
 
 @app.route('/homepage')
