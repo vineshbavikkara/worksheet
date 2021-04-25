@@ -24,7 +24,6 @@ def homepage():
 def answer1():
 	return render_template("answer1.html")
 
-
 if __name__=="__main__":
     app.run(debug=True)
 

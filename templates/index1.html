@@ -11,12 +11,12 @@
 <body>
     <div class="main-body">
         <h1>WORKSHEET </h1>
-        <p><b>A </b>worksheet, in the word's original meaning, is a sheet of paper on which one performs work. They come in many forms, most commonly associated with children's school work assignments, tax forms, and accounting or other business environments. Software is increasingly taking over the paper-based worksheet. It can be a printed page that a child completes with a writing instrument. No other materials are needed. It is "a sheet of paper on which work schedules, working time, special instructions, etc. are recorded. A piece or scrap of paper on which problems, ideas, or the like, are set down in tentative form." In education, a worksheet may have questions for students and places to record answers.</p>
+        <p align="justify"><b>A </b>worksheet, in the word's original meaning, is a sheet of paper on which one performs work. They come in many forms, most commonly associated with children's school work assignments, tax forms, and accounting or other business environments. Software is increasingly taking over the paper-based worksheet. It can be a printed page that a child completes with a writing instrument. No other materials are needed. It is "a sheet of paper on which work schedules, working time, special instructions, etc. are recorded. A piece or scrap of paper on which problems, ideas, or the like, are set down in tentative form." In education, a worksheet may have questions for students and places to record answers.</p>
     </div>
         <div>
             <h2>Question 1</h2>
             <P>Find the Answer</P>
-            <img src="https://github.com/vineshbavikkara/worksheet/blob/main/images/image1.jpg?raw=true" width="300" height="200">
+            <img src="/static/images/image1.jpg" width="300" height="200">
             <div class="answer1">
                 <form action="{{url_for('predict1')}}" method="post">
                 <input type="number" id="nm" name="number" placeholder="Enter Answer Here" required=" required">
@@ -28,10 +28,10 @@
                 <h3>{{answer}} &#x1F642;</h3>            
             </div>
         </div>
-    </div>
-    <br><br>
-    <div>
-        <a href="/homepage"><b>Home</b></a>
+        <br>
+        <div class="an">
+            <a href="/static/pdf/demo.pdf" type="application/pdf" target="_blank">Show All Answers</a>
+        </div>
     </div>
     </body>
 </html>
